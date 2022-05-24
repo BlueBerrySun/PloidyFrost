@@ -79,7 +79,7 @@ out_trifile <- NULL
 out_tetrafile <- NULL
 out_pentafile <- NULL
 
-if(opt$strict){
+if(opt$simple){
   bifile <- bifile[bifile$isStrict==1,]
   trifile <- trifile[trifile$isStrict==1,]
   tetrafile <- tetrafile[tetrafile$isStrict==1,]
